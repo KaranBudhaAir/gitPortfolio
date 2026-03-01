@@ -65,7 +65,7 @@
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
-  padding: 0 10px;
+  // padding: 0 10px;
 }
 
 /* menu */
@@ -159,23 +159,23 @@
 
 /* 48em = 768px */
 
-// @media (min-width: 48em) {
-//   .header li {
-//     float: left;
-//   }
-//   .header {
-//     display: flex;
-//     align-items: center;
-//     justify-content: space-between;
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
    
-//   }
-//   .header .menu {
-//     max-height: none;
-//   }
-//   .header .menu-icon {
-//     display: none;
-//   }
-// }
+  }
+  .header .menu {
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
 @media (max-width: 960px) and (min-width: 768px) {
   .header {
     font-size: 12px;
@@ -183,41 +183,3 @@
 }
 
 
-/* Mobile view: below 768px */
-/* Desktop and above: >=48em (~768px) */
-@media (min-width: 48em) {
-  /* Menu items float left for desktop */
-  .header li {
-    float: left;
-  }
-
-  /* Header flex only for desktop top row */
-  .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  /* Keep menu always visible in desktop */
-  .header .menu {
-    max-height: none;
-  }
-
-  /* Hide hamburger icon on desktop */
-  .header .menu-icon {
-    display: none;
-  }
-
-  /* Optional: clean up logo alignment on desktop */
-  .header .logo {
-    float: none;
-    margin-top: 0;
-    display: inline-flex;
-    align-items: center;
-  }
-
-  .header .logo-name {
-    line-height: 1;
-    padding: 0 10px;
-  }
-}
