@@ -177,7 +177,7 @@ const workExperiences = {
   experience: [
     
       {
-  role: "Data Analytics Virtual Experience Participant",
+  role: "Data Analytics Virtual Industry Experience ",
   company: "Commonwealth Bank (Forage)",
   companylogo: require("./assets/images/commBank.png"),
   date: "February 2026",
@@ -193,7 +193,7 @@ const workExperiences = {
 
     },
     {
-  role: "Data Analytics & Forensic Technology Virtual Experience Participant",
+  role: "Data Analytics & Forensic Technology Virtual Industry Experience ",
   company: "Deloitte (Forage)",
   companylogo: require("./assets/images/deloitte.png"),
   date: "February 2026",
