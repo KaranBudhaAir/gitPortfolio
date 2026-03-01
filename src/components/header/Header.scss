@@ -159,7 +159,7 @@
 
 /* 48em = 768px */
 
-@media (min-width: 48em) {
+@media (min-width: 45em) {
   .header li {
     float: left;
   }
@@ -183,31 +183,31 @@
 }
 
 
-// for mobile
+// for mobie
 /* Mobile view: below 768px */
-@media (max-width: 767px) {
-  .header {
-    display: flex;
-    align-items: center;     /* vertically center logo + menu icon */
-    justify-content: space-between;
-  }
+// @media (max-width: 767px) {
+//   .header {
+//     display: flex;
+//     align-items: center;     /* vertically center logo + menu icon */
+//     justify-content: space-between;
+//   }
 
-  .header .logo {
-    float: none;            /* remove float */
-    margin-top: 0;          /* remove extra spacing */
-  }
+//   .header .logo {
+//     float: none;            /* remove float */
+//     margin-top: 0;          /* remove extra spacing */
+//   }
 
-  .header .menu-icon {
-    float: none;            /* remove float */
-    padding: 0;             /* clean spacing */
-    display: inline-flex; 
-    align-items: center;    /* vertical align hamburger lines */
-    justify-content: center;
-    height: 40px;           /* match header height */
-  }
+//   .header .menu-icon {
+//     float: none;            /* remove float */
+//     padding: 0;             /* clean spacing */
+//     display: inline-flex; 
+//     align-items: center;    /* vertical align hamburger lines */
+//     justify-content: center;
+//     height: 40px;           /* match header height */
+//   }
 
-  .header .logo-name {
-    line-height: 1;         /* ensures vertical alignment with menu icon */
-    padding: 0 10px;        /* horizontal spacing */
-  }
-}
+//   .header .logo-name {
+//     line-height: 1;         /* ensures vertical alignment with menu icon */
+//     padding: 0 10px;        /* horizontal spacing */
+//   }
+// }
