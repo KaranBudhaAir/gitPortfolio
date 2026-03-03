@@ -175,7 +175,19 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    
+     {
+  role: "Data Analytics & Forensic Technology Virtual Industry Experience ",
+  company: "Deloitte (Forage)",
+  companylogo: require("./assets/images/deloitte.png"),
+  date: "February 2026",
+  desc: "Completed Deloitte job simulation focused on data analytics and forensic technology applications.",
+  descBullets: [
+    "Analyzed structured datasets using Excel to classify data and extract meaningful business insights",
+    "Designed and developed an interactive dashboard in Tableau to visualize key performance indicators",
+    "Interpreted analytical findings to support client-focused decision making",
+    "Applied data storytelling techniques to communicate insights clearly and effectively"
+  ]
+},
       {
   role: "Data Analytics Virtual Industry Experience ",
   company: "Commonwealth Bank (Forage)",
@@ -191,20 +203,8 @@ const workExperiences = {
   "Provided transparent commentary on data limitations and quality considerations to support confident decision-making"
   ]
 
-    },
-    {
-  role: "Data Analytics & Forensic Technology Virtual Industry Experience ",
-  company: "Deloitte (Forage)",
-  companylogo: require("./assets/images/deloitte.png"),
-  date: "February 2026",
-  desc: "Completed Deloitte job simulation focused on data analytics and forensic technology applications.",
-  descBullets: [
-    "Analyzed structured datasets using Excel to classify data and extract meaningful business insights",
-    "Designed and developed an interactive dashboard in Tableau to visualize key performance indicators",
-    "Interpreted analytical findings to support client-focused decision making",
-    "Applied data storytelling techniques to communicate insights clearly and effectively"
-  ]
-},
+    }
+   ,
   ]
 };
 
@@ -258,19 +258,7 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
-  {
-    title: "Commonwealth Bank – Data Analytics Virtual Experience",
-    subtitle:
-      "Completed CommBank Green Loan data analysis simulation, identifying qualified customer segments using Excel and presenting insights via PowerPoint.",
-    image: require("./assets/images/comm_bank_logo.png"),
-    imageAlt: "Commonwealth Bank Logo",
-    footerLink: [
-      {
-        name: "View Certificate",
-        url: "https://drive.google.com/file/d/1-RHJnomhJrcRtZmYp8C8ScCBpLsAw3Ge/view?usp=drive_link"
-      }
-    ]
-  },
+  
   {
     title: "Deloitte – Data Analytics & Forensic Technology Simulation",
     subtitle:
@@ -281,6 +269,20 @@ const achievementSection = {
       {
         name: "View Certificate",
         url: "https://drive.google.com/file/d/114YBD6CsBJsRTlS70_fbpSLTJsKTg5u3/view?usp=drive_link"
+      }
+    ]
+  }
+  ,
+  {
+    title: "Commonwealth Bank – Data Analytics Virtual Experience",
+    subtitle:
+      "Completed CommBank Green Loan data analysis simulation, identifying qualified customer segments using Excel and presenting insights via PowerPoint.",
+    image: require("./assets/images/comm_bank_logo.png"),
+    imageAlt: "Commonwealth Bank Logo",
+    footerLink: [
+      {
+        name: "View Certificate",
+        url: "https://drive.google.com/file/d/1-RHJnomhJrcRtZmYp8C8ScCBpLsAw3Ge/view?usp=drive_link"
       }
     ]
   }
