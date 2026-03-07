@@ -23,7 +23,7 @@ const greeting = {
   username: "Karan Budha Air",
   title: "Hello I'm Karan Budha Air",
   subTitle: emoji(
-    " I’m experienced software developer with a background in artificial intelligence 🚀"
+    " I’m experienced software developer with a background in Artificial Intelligence 🚀"
   ),
   resumeLink:"/resume.docx", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
