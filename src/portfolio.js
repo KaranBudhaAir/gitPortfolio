@@ -285,7 +285,47 @@ const achievementSection = {
         url: "https://drive.google.com/file/d/1-RHJnomhJrcRtZmYp8C8ScCBpLsAw3Ge/view?usp=drive_link"
       }
     ]
+  },
+    {
+    title: "Azure AI Fundamentals",
+    subtitle:
+      "Completed Azure Machine Learning Fundamentals ",
+    image: require("./assets/images/azure.png"),
+    imageAlt: "Microsoft Azure Logo",
+    footerLink: [
+      {
+        name: "View Certificate",
+        url: "https://drive.google.com/file/d/1VJaPcGwGs6KN3B-uuXvNkaaHpu1zaY33/view?usp=drive_link"
+      }
+    ]
+  },
+  {
+    title: "Microsoft Power BI",
+    subtitle:
+      "Completed PL-300: Power BI for Data Analysis, developing skills in data modelling, transformation, and visualization. This strengthened my understanding of how well-structured data pipelines and data warehouses support reliable analytics and reporting. ",
+    image: require("./assets/images/pl300.png"),
+    imageAlt: "Microsoft Azure Logo",
+    footerLink: [
+      {
+        name: "View Certificate",
+        url: "https://drive.google.com/file/d/1p1xtrzym6iIstLDGB7LIORp108RAhBmT/view?usp=drive_link"
+      }
+    ]
+  },
+{
+    title: "Microsoft Azure Fundamentals: Cloud Computing Concepts",
+    subtitle:
+      "Completed Microsoft Azure Fundamentals, developing an understanding of cloud computing concepts, Azure data services, and how cloud infrastructure supports modern data platforms and analytics workflows.  ",
+    image: require("./assets/images/pl300.png"),
+    imageAlt: "Microsoft Azure Logo",
+    footerLink: [
+      {
+        name: "View Certificate",
+        url: "https://drive.google.com/file/d/18WfO8AAQpl9mQ0jXx3QXbfm3AMlX422L/view?usp=drive_link"
+      }
+    ]
   }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
