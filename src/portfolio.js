@@ -324,7 +324,20 @@ const achievementSection = {
         url: "https://drive.google.com/file/d/18WfO8AAQpl9mQ0jXx3QXbfm3AMlX422L/view?usp=drive_link"
       }
     ]
-  }
+  },
+  {
+    title: "Data Engineering on Microsoft Azure: Designing Data Storage Structures",
+    subtitle:
+      "Completed Microsoft Azure Fundamentals with a focus on designing efficient data storage structures. Developed practical knowledge of Azure data services and how to use cloud infrastructure to support modern data analytics and management workflows.",
+    image: require("./assets/images/dataEngineering.png"),
+    imageAlt: "Microsoft Azure Logo",
+    footerLink: [
+      {
+        name: "View Certificate",
+        url: "https://drive.google.com/file/d/1EpnupPk3RKcw8bWtYyGuomJTcbvyzG6a/view?usp=drive_link"
+      }
+    ]
+}
 
   ],
   display: true // Set false to hide this section, defaults to true
