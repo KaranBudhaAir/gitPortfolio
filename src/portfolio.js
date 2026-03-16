@@ -134,36 +134,7 @@ https://fontawesome.com/icons?d=gallery */
 
 // Education Section
 
-const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
-  schools: [
-    {
-  
-  schoolName: "Flinders University, Australia",
-  logo: require("./assets/images/flinders.png"),
-  subHeader: "Master of Science",
-  duration: "2022 - 2024",
-  desc: "Forecasting Geophysical Hazards Using Machine Learning.",
-  descBullets: [
-    "Applied LSTM and Random Forest models to VLF signal data for seismic event forecasting",
-    "Performed data preprocessing, feature engineering, and model evaluation using Python",
-    "Visualized trends and model outputs using Matplotlib and Seaborn to support interpretation"
-  ]
-    },
-    {
-  schoolName: "National College of Engineering, Lalitpur, Nepal",
-  logo: require("./assets/images/nce.png"),
-  subHeader: "Bachelor of Engineering",
-  duration: "2011 - 2018",
-  desc: "IoT-Based Water Level Detection System.",
-  descBullets: [
-    "Engineered a real-time alert system using ultrasonic sensors and GSM modules",
-    "Programmed microcontrollers in C for automation and wireless signal transmission",
-    "Designed a scalable monitoring solution suitable for both household and industrial applications"
-  ]
-}
-  ]
-};
+
 
 // Your top 3 proficient stacks/tech experience
 
@@ -178,7 +149,7 @@ const workExperiences = {
      {
   role: "Data Analytics & Forensic Technology Virtual Industry Experience ",
   company: "Deloitte (Forage)",
-  companylogo: require("./assets/images/deloitte.png"),
+  companylogo: require("./assets/images/deloitte_logo.png"),
   date: "February 2026",
   desc: "Completed Deloitte job simulation focused on data analytics and forensic technology applications.",
   descBullets: [
@@ -191,7 +162,7 @@ const workExperiences = {
       {
   role: "Data Analytics Virtual Industry Experience ",
   company: "Commonwealth Bank (Forage)",
-  companylogo: require("./assets/images/commBank.png"),
+  companylogo: require("./assets/images/comm_bank_logo.png"),
   date: "February 2026",
   desc: "Completed Commonwealth Bank job simulation focused on data analytics and business insights.",
   descBullets: [
@@ -246,7 +217,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -341,6 +312,37 @@ const achievementSection = {
 
   ],
   display: true // Set false to hide this section, defaults to true
+};
+
+const educationInfo = {
+  display: true, // Set false to hide this section, defaults to true
+  schools: [
+    {
+  
+  schoolName: "Flinders University, Australia",
+  logo: require("./assets/images/flinders.png"),
+  subHeader: "Master of Science",
+  duration: "2022 - 2024",
+  desc: "Forecasting Geophysical Hazards Using Machine Learning.",
+  descBullets: [
+    "Applied LSTM and Random Forest models to VLF signal data for seismic event forecasting",
+    "Performed data preprocessing, feature engineering, and model evaluation using Python",
+    "Visualized trends and model outputs using Matplotlib and Seaborn to support interpretation"
+  ]
+    },
+    {
+  schoolName: "National College of Engineering, Lalitpur, Nepal",
+  logo: require("./assets/images/nce.png"),
+  subHeader: "Bachelor of Engineering",
+  duration: "2011 - 2018",
+  desc: "IoT-Based Water Level Detection System.",
+  descBullets: [
+    "Engineered a real-time alert system using ultrasonic sensors and GSM modules",
+    "Programmed microcontrollers in C for automation and wireless signal transmission",
+    "Designed a scalable monitoring solution suitable for both household and industrial applications"
+  ]
+}
+  ]
 };
 
 // Blogs Section
