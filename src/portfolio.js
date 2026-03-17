@@ -23,7 +23,7 @@ const greeting = {
   username: "Karan Budha Air",
   title: "Hello I'm Karan Budha Air",
   subTitle: emoji(
-    " I’m experienced software developer with a background in Artificial Intelligence 🚀"
+    " I’m experienced Data Analyst with a background in Artificial Intelligence 🚀"
   ),
   resumeLink:"/resume.docx", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -207,7 +207,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/chat_bot_project.png"),
-      projectName: "AI Chat Bot",
+      projectName: "AI Chatbot",
      // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -233,11 +233,13 @@ const achievementSection = {
   {
     title: "Deloitte – Data Analytics & Forensic Technology Simulation",
     subtitle:[
-      "Identified key customer segment (age 30–50) contributing to 62% of successful loan approvals.",
-
-"Discovered mid-range properties had 28% higher approval rates, shifting investment strategy.",
-
-"Reduced potential risk exposure by ~18% through better customer and property targeting."
+    <ul style={{ listStyleType: "disc", paddingLeft: "1.2em", fontSize: "18px" }}>
+  <li><strong>Identified Seiko (Osaka)</strong> as the top downtime factory (~500 mins).</li>
+  
+  <li><strong>Found Laser Welders</strong> causing the most machine failures.</li>
+  
+  <li><strong>Built an interactive Tableau dashboard</strong> to quickly track and analyse downtime.</li>
+</ul> 
     ],
       
     
@@ -255,9 +257,11 @@ const achievementSection = {
     title: "Commonwealth Bank – Data Analytics Virtual Experience",
     subtitle:[
    <ul style={{ listStyleType: "disc", paddingLeft: "1.2em", fontSize: "18px" }}>
-  <li>Targeted key customer segment (30–50) driving 62% of loan approvals.</li>
-  <li>Shifted strategy to mid-range properties, boosting approval rates by 28%.</li>
-  <li>Reduced risk exposure by 18% via smarter customer & property selection.</li>
+  <li><strong>Targeted key customer segment (30–50)</strong> driving <strong>62% of loan approvals</strong>.</li>
+  
+  <li><strong>Shifted strategy to mid-range properties</strong>, boosting <strong>approval rates by 28%</strong>.</li>
+  
+  <li><strong>Reduced risk exposure by 18%</strong> via <strong>smarter customer & property selection</strong>.</li>
 </ul>
     ]
     ,image: require("./assets/images/comm_bank_logo.png"),
@@ -271,8 +275,15 @@ const achievementSection = {
   },
     {
     title: "Azure AI Fundamentals",
-    subtitle:
-      "Completed Azure Machine Learning Fundamentals ",
+    subtitle:[
+      <ul style={{ listStyleType: "disc", paddingLeft: "1.2em", fontSize: "18px" }}>
+  <li><strong>Built a local AI chatbot</strong>, letting <strong>businesses customize responses</strong> without external APIs.</li>
+  
+  <li><strong>Enabled chatbot configuration</strong> to <strong>match specific business needs</strong>.</li>
+  
+  <li><strong>Created a hands-on AI learning project</strong> for <strong>local deployment and integration practice</strong>.</li>
+</ul>
+    ],
     image: require("./assets/images/azure.png"),
     imageAlt: "Microsoft Azure Logo",
     footerLink: [
