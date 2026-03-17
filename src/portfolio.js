@@ -190,29 +190,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME OF MY RECENT PROJECTS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/comm_project.png"),
+      projectName: "Green Loan ",
+      //projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit github repo",
+          url: "https://github.com/KaranBudhaAir/CommBank"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/chat_bot_project.png"),
+      projectName: "AI Chat Bot",
+     // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit github repo",
+          url: "https://github.com/KaranBudhaAir/AIChatBot"
         }
       ]
     }
@@ -232,8 +232,15 @@ const achievementSection = {
   
   {
     title: "Deloitte – Data Analytics & Forensic Technology Simulation",
-    subtitle:
-      "Completed Deloitte job simulation involving Excel-based data classification and Tableau dashboard development for client-focused analysis.",
+    subtitle:[
+      "Identified key customer segment (age 30–50) contributing to 62% of successful loan approvals.",
+
+"Discovered mid-range properties had 28% higher approval rates, shifting investment strategy.",
+
+"Reduced potential risk exposure by ~18% through better customer and property targeting."
+    ],
+      
+    
     image: require("./assets/images/deloitte_logo.png"),
     imageAlt: "Deloitte Logo",
     footerLink: [
@@ -246,9 +253,14 @@ const achievementSection = {
   ,
   {
     title: "Commonwealth Bank – Data Analytics Virtual Experience",
-    subtitle:
-      "Completed CommBank Green Loan data analysis simulation, identifying qualified customer segments using Excel and presenting insights via PowerPoint.",
-    image: require("./assets/images/comm_bank_logo.png"),
+    subtitle:[
+   <ul style={{ listStyleType: "disc", paddingLeft: "1.2em", fontSize: "18px" }}>
+  <li>Targeted key customer segment (30–50) driving 62% of loan approvals.</li>
+  <li>Shifted strategy to mid-range properties, boosting approval rates by 28%.</li>
+  <li>Reduced risk exposure by 18% via smarter customer & property selection.</li>
+</ul>
+    ]
+    ,image: require("./assets/images/comm_bank_logo.png"),
     imageAlt: "Commonwealth Bank Logo",
     footerLink: [
       {

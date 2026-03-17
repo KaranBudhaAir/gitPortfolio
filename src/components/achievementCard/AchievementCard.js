@@ -27,6 +27,7 @@ export default function AchievementCard({cardInfo, isDark}) {
         <p className={isDark ? "dark-mode card-subtitle" : "card-subtitle"}>
           {cardInfo.description}
         </p>
+        
       </div>
       <div className="certificate-card-footer">
         {cardInfo.footer.map((v, i) => {
