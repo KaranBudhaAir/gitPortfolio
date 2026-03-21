@@ -295,8 +295,7 @@ const achievementSection = {
   },
   {
     title: "Microsoft Power BI",
-    subtitle:
-      "Completed PL-300: Power BI for Data Analysis, developing skills in data modelling, transformation, and visualization. This strengthened my understanding of how well-structured data pipelines and data warehouses support reliable analytics and reporting. ",
+    // subtitle:"Completed PL-300: Power BI for Data Analysis, developing skills in data modelling, transformation, and visualization. This strengthened my understanding of how well-structured data pipelines and data warehouses support reliable analytics and reporting. ",
     image: require("./assets/images/pl300.png"),
     imageAlt: "Microsoft Azure Logo",
     footerLink: [
@@ -308,8 +307,7 @@ const achievementSection = {
   },
 {
     title: "Microsoft Azure Fundamentals: Cloud Computing Concepts",
-    subtitle:
-      "Completed Microsoft Azure Fundamentals, developing an understanding of cloud computing concepts, Azure data services, and how cloud infrastructure supports modern data platforms and analytics workflows.  ",
+    // subtitle:"Completed Microsoft Azure Fundamentals, developing an understanding of cloud computing concepts, Azure data services, and how cloud infrastructure supports modern data platforms and analytics workflows.  ",
     image: require("./assets/images/pl300.png"),
     imageAlt: "Microsoft Azure Logo",
     footerLink: [
@@ -321,8 +319,7 @@ const achievementSection = {
   },
   {
     title: "Data Engineering on Microsoft Azure: Designing Data Storage Structures",
-    subtitle:
-      "Completed Microsoft Azure Fundamentals with a focus on designing efficient data storage structures. Developed practical knowledge of Azure data services and how to use cloud infrastructure to support modern data analytics and management workflows.",
+    // subtitle: "Completed Microsoft Azure Fundamentals with a focus on designing efficient data storage structures. Developed practical knowledge of Azure data services and how to use cloud infrastructure to support modern data analytics and management workflows.",
     image: require("./assets/images/dataEngineering.png"),
     imageAlt: "Microsoft Azure Logo",
     footerLink: [
