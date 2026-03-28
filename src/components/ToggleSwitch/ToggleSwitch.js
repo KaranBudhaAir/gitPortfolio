@@ -12,14 +12,14 @@ const ToggleSwitch = () => {
     <label className="switch">
       <input
         type="checkbox"
-        checked={isDark}
+        checked={!isDark}
         onChange={() => {
           styleContext.changeTheme();
-          setChecked(!isChecked);
+          setChecked(isChecked);
         }}
       />
       <span className="slider round">
-        <span className="emoji">{isChecked ? emoji("🌜") : emoji("☀️")}</span>
+        <span className="emoji">{!isChecked ? emoji("🌜") : emoji("☀️")}</span>
       </span>
     </label>
   );
