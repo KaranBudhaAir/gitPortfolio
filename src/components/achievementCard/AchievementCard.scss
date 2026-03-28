@@ -50,6 +50,32 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  object-fit: contain;
+  background: linear-gradient(145deg, #4d75c4, #eef1f6);
+}
+
+
+.certificate-image-div .card-image {
+  
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  
+
+
+  
+}
+
+// new effect
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+
+.certificate-image-div .card-image {
+  animation: float 2s ease-in-out infinite;
 }
 .achievement-cards-div {
   display: grid;

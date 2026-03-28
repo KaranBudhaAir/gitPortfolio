@@ -148,9 +148,9 @@ const workExperiences = {
   experience: [
      {
   role: "Data Analytics & Forensic Technology Virtual Industry Experience ",
-  company: "Deloitte (Forage)",
+  company: "Deloitte ",
   companylogo: require("./assets/images/deloitte_logo.png"),
-  date: "February 2026",
+  date: "Nov 2025 - Feb 2026",
   desc: "Completed Deloitte job simulation focused on data analytics and forensic technology applications.",
   descBullets: [
     "Analyzed structured datasets using Excel to classify data and extract meaningful business insights",
@@ -161,9 +161,9 @@ const workExperiences = {
 },
       {
   role: "Data Analytics Virtual Industry Experience ",
-  company: "Commonwealth Bank (Forage)",
+  company: "Commonwealth Bank",
   companylogo: require("./assets/images/comm_bank_logo.png"),
-  date: "February 2026",
+  date: "Jul 2025 - Feb 2026",
   desc: "Completed Commonwealth Bank job simulation focused on data analytics and business insights.",
   descBullets: [
     "Analyzed home mortgage datasets in Excel to identify potential target customers for CommBank’s Green Loan program",
@@ -206,7 +206,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/chat_bot_project.png"),
+      image: require("./assets/images/chat_bot2.png"),
       projectName: "AI Chatbot",
      // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
@@ -243,7 +243,7 @@ const achievementSection = {
     ],
       
     
-    image: require("./assets/images/deloitte_logo.png"),
+    image: require("./assets/images/deloitte.png"),
     imageAlt: "Deloitte Logo",
     footerLink: [
       {
@@ -264,7 +264,7 @@ const achievementSection = {
   <li><strong>Reduced risk exposure by 18%</strong> via <strong>smarter customer & property selection</strong>.</li>
 </ul>
     ]
-    ,image: require("./assets/images/comm_bank_logo.png"),
+    ,image: require("./assets/images/commbank_achievment.png"),
     imageAlt: "Commonwealth Bank Logo",
     footerLink: [
       {
@@ -332,7 +332,7 @@ const achievementSection = {
   {
     title: "Data Engineering on Microsoft Azure",
     // subtitle: "Completed Microsoft Azure Fundamentals with a focus on designing efficient data storage structures. Developed practical knowledge of Azure data services and how to use cloud infrastructure to support modern data analytics and management workflows.",
-    image: require("./assets/images/azure.png"),
+    image: require("./assets/images/azure1.png"),
     imageAlt: "Microsoft Azure Logo",
     footerLink: [
       {
@@ -465,12 +465,14 @@ export {
   socialMediaLinks,
   splashScreen,
   skillsSection,
-  educationInfo,
-  techStack,
-  workExperiences,
-  openSource,
   bigProjects,
+  workExperiences,
   achievementSection,
+  techStack,
+  
+  openSource,
+  educationInfo,
+  
   blogSection,
   talkSection,
   podcastSection,
