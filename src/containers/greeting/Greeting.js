@@ -42,10 +42,12 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href="/Resume.docx"
-                    download="Resume.docx"
-                    className="download-link-button"
-                  >
+                    // href="/Resume.docx"
+                    // download="Resume.docx"
+                    href="https://docs.google.com/document/d/1kmc1d9uX86RwHKpEHKxY7qAoh29xB4P2/export?format=docx">
+ 
+                    {/* className="download-link-button" */}
+                  
                     <Button text="Download my resume" />
                   </a>
                 )}
@@ -67,3 +69,6 @@ export default function Greeting() {
     </Fade>
   );
 }
+
+
+// https://docs.google.com/document/d/1kmc1d9uX86RwHKpEHKxY7qAoh29xB4P2/edit?usp=drive_link&ouid=102849418921512162123&rtpof=true&sd=true

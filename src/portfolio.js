@@ -146,7 +146,20 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-     {
+    {
+  role: "Data Science Intern ",
+  company: "Visgrow",
+  companylogo: require("./assets/images/visgrow2.png"),
+  date: "Feb 2026 - Current",
+  desc: "AI Resume Builder",
+  descBullets: [
+"Developing an AI-driven platform",
+"Generates professional resumes",
+"Uses direct user input to create resume"
+   ]
+
+    } 
+    ,{
   role: "Data Analytics & Forensic Technology Virtual Industry Experience ",
   company: "Deloitte ",
   companylogo: require("./assets/images/deloitte_logo.png"),
@@ -162,7 +175,7 @@ const workExperiences = {
       {
   role: "Data Analytics Virtual Industry Experience ",
   company: "Commonwealth Bank",
-  companylogo: require("./assets/images/comm_bank_logo.png"),
+  companylogo: require("./assets/images/comm_logo2.png"),
   date: "Jul 2025 - Feb 2026",
   desc: "Completed Commonwealth Bank job simulation focused on data analytics and business insights.",
   descBullets: [
@@ -175,7 +188,24 @@ const workExperiences = {
   ]
 
     }
+   
    ,
+    {
+  role: "Software Engineer ",
+  company: "Code Fusion",
+  companylogo: require("./assets/images/code_fusion2.png"),
+  date: "Dec 2018 - Jan 2022",
+  desc: "Completed Commonwealth Bank job simulation focused on data analytics and business insights.",
+  descBullets: [
+  "Developed and maintained full-stack applications with a focus on data-driven functionality, analytics support, and reporting solutions",
+  "Worked across front-end and back-end systems to ensure reliable data flow and optimal application performance",
+  "Implemented secure system integration practices across application components",
+  "Collaborated within Agile teams to deliver scalable and efficient software solutions",
+  "Contributed to product enhancement initiatives by identifying opportunities for improvement",
+  "Mentored junior developers to support skill development and continuous improvement"
+]
+
+    }
   ]
 };
 
@@ -206,7 +236,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/chat_bot2.png"),
+      image: require("./assets/images/chat_bot.png"),
       projectName: "AI Chatbot",
      // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
@@ -215,7 +245,8 @@ const bigProjects = {
           url: "https://github.com/KaranBudhaAir/AIChatBot"
         }
       ]
-    }
+    },
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
