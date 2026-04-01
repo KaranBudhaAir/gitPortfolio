@@ -1,5 +1,15 @@
 @import "../../_globalColor";
+#skills{
+    margin-top: -8rem;
+  }
 
+  
+  .button-greeting-div{
+    margin-top: -0.6rem;
+  }
+  .social-media-div{
+    margin-top: -1.8rem;
+  }
 .skills-main-div {
   display: flex;
   width: 100%;
@@ -60,5 +70,14 @@
   .skills-image-div {
     /* display: none; */
     order: 2;
+  }
+  #skills{
+    margin-top: -3rem;
+  }
+  .button-greeting-div{
+    margin-top: -0.8rem;
+  }
+  .social-media-div{
+    margin-top: -2rem;
   }
 }
