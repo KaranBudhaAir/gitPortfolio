@@ -246,6 +246,19 @@ const bigProjects = {
         }
       ]
     },
+    {
+      image: require("./assets/images/netflix.png"),
+      projectName: "Netflix Data Engineering ",
+      //projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit github repo",
+          url: "https://github.com/KaranBudhaAir/dataEngineering/blob/main/ELT%20Project.png"
+        }
+        //  you can add extra buttons here.
+      ]
+    }
+
     
   ],
   display: true // Set false to hide this section, defaults to true
@@ -369,6 +382,18 @@ const achievementSection = {
       {
         name: "View Certificate",
         url: "https://drive.google.com/file/d/1EpnupPk3RKcw8bWtYyGuomJTcbvyzG6a/view?usp=drive_link"
+      }
+    ]
+},
+{
+    title: "JIRA",
+    // subtitle: "Completed Microsoft Azure Fundamentals with a focus on designing efficient data storage structures. Developed practical knowledge of Azure data services and how to use cloud infrastructure to support modern data analytics and management workflows.",
+    image: require("./assets/images/jira.png"),
+    imageAlt: "JIRA",
+    footerLink: [
+      {
+        name: "View Certificate",
+        url: "https://drive.google.com/file/d/1kkz6NdTYs_hNPQeL5hUqFL6BHuyf7KQn/view?usp=sharing"
       }
     ]
 }
