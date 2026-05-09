@@ -151,59 +151,91 @@ const workExperiences = {
   company: "Visgrow",
   companylogo: require("./assets/images/visgrow2.png"),
   date: "Feb 2026 - Current",
-  desc: "AI Resume Builder",
-  descBullets: [
-"Developing an AI-driven platform",
-"Generates professional resumes",
-"Uses direct user input to create resume"
-   ]
+  desc: "I am developing an AI-driven platform that generates professional resumes directly from user inputs, aimed at enhancing the student experience. Working closely with the Founder, I am designing workflows to convert raw data into structured, recruiter-ready formats and refined the AI output to ensure personalised, accurate, and actionable resume content.",
+  ach:""
 
-    } 
+    } ,
+     {
+  role: "Delivery Partner ",
+  company: "Uber Eats",
+  companylogo: require("./assets/images/uber1.png"),
+  date: "Jul 2022 - Current",
+  desc: "I’m responsible for delivering orders on time while keeping customers informed and resolving issues efficiently. I manage tasks independently in a fast-paced environment, staying organised and adaptable to ensure consistent service quality.",
+  ach:"Achievements:",
+  descBullets: [
+    
+   "Successfully performed 2,000+ deliveries, ensuring timely and accurate service, which led to repeat customers.",
+  "Generated 12% additional income through customer tips due to the high-quality service delivered.",
+   "Maintained a consistent 4.6 out of 5-star customer satisfaction rating."
+   
+
+]
+
+     
+}
     ,{
-  role: "Data Analytics & Forensic Technology Virtual Industry Experience ",
+  role: "Data Analyst Intern ",
   company: "Deloitte ",
   companylogo: require("./assets/images/deloitte_logo.png"),
   date: "Nov 2025 - Feb 2026",
-  desc: "Completed Deloitte job simulation focused on data analytics and forensic technology applications.",
-  descBullets: [
-    "Analyzed structured datasets using Excel to classify data and extract meaningful business insights",
-    "Designed and developed an interactive dashboard in Tableau to visualize key performance indicators",
-    "Interpreted analytical findings to support client-focused decision making",
-    "Applied data storytelling techniques to communicate insights clearly and effectively"
-  ]
+  desc: "I was responsible for building an interactive tableau dashboard which identified unique pattern and led to supporting forensic investigation.",
+  ach: "Achievements:",
+   descBullets: [
+    
+  "Identified Seiko (Osaka) as the top downtime factory (~500 mins).",
+"Laser Welders causing the most machine failures."
+
+
+   ]
 },
       {
-  role: "Data Analytics Virtual Industry Experience ",
+  role: "Data Analyst Intern ",
   company: "Commonwealth Bank",
   companylogo: require("./assets/images/comm_logo2.png"),
   date: "Jul 2025 - Feb 2026",
-  desc: "Completed Commonwealth Bank job simulation focused on data analytics and business insights.",
+  ach: "Achievements:",
+  desc: "I was responsible to analysed complex customer financial dataset which led to identifying risk and performance issues.",
   descBullets: [
-    "Analyzed home mortgage datasets in Excel to identify potential target customers for CommBank’s Green Loan program",
-  "Applied filtering, sorting, and segmentation techniques to evaluate borrowers based on LTV ratios, income levels, property values, and demographic indicators",
-  "Identified and quantified qualified sales leads by comparing multiple eligibility criteria combinations",
-  "Created data visualizations and charts in Excel to highlight trends, patterns, and high-potential customer segments",
-  "Developed a concise 5–7 slide PowerPoint presentation communicating key insights, risks, and business recommendations",
-  "Provided transparent commentary on data limitations and quality considerations to support confident decision-making"
-  ]
+   
+  "Identified the 30–50 customer segment contributing 62% of loan approvals.",
+  "Improved approval rates by 28% through a strategic shift to mid-range properties.",
+  "Reduced risk exposure by 18% via optimized customer and property selection."
+]
 
     }
    
    ,
+  {
+  role: "Team Member ",
+  company: "Coles",
+  companylogo: require("./assets/images/coles2.png"),
+  date: "Dec 2018 - Jan 2022",
+  desc: "I was responsible for maintaining the fresh produce section, keeping items stocked, clean, and organised. I assisted customers in locating products, monitored quality, and ensured displays were appealing, while collaborating with team members to manage stock and maintain a safe, welcoming environment.",
+  ach: "Achievements:",
+  descBullets: [
+     "Assisted 3,500+ customers in a friendly manner, which led to multiple positive customer feedback."
+ ,"Recognised as an “Achiever”, within the first few months for outstanding performance."
+,	"Assigned weekend shifts during peak morning hours due to my ability to work effectively under pressure."
+
+ ]
+
+    },
+
     {
   role: "Software Engineer ",
   company: "Code Fusion",
   companylogo: require("./assets/images/code_fusion2.png"),
   date: "Dec 2018 - Jan 2022",
-  desc: "Completed Commonwealth Bank job simulation focused on data analytics and business insights.",
+  desc: "I was responsible for developing and maintaining full-stack applications with a focus on data-driven features, analytics, reporting, system performance, secure integrations, Agile collaboration, product improvements, and mentoring junior developers.",
+   
+  ach: "Achievements:",
   descBullets: [
-  "Developed and maintained full-stack applications with a focus on data-driven functionality, analytics support, and reporting solutions",
-  "Worked across front-end and back-end systems to ensure reliable data flow and optimal application performance",
-  "Implemented secure system integration practices across application components",
-  "Collaborated within Agile teams to deliver scalable and efficient software solutions",
-  "Contributed to product enhancement initiatives by identifying opportunities for improvement",
-  "Mentored junior developers to support skill development and continuous improvement"
-]
+
+  "Reduced application response time by 30% and server load by 20%, improving performance for 1,500+ users.",
+  "Delivered 12+ production-ready features, enhancing functionality and user experience.",
+  "Recognised by management for consistently delivering high-quality work ahead of schedule."
+
+ ]
 
     }
   ]
@@ -268,23 +300,24 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji(" Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    " Certifications",
 
   achievementsCards: [
+    
   
   {
-    title: "Deloitte – Data Analytics & Forensic Technology Simulation",
-    subtitle:[
-    <ul style={{ listStyleType: "disc", paddingLeft: "1.2em", fontSize: "18px" }}>
-  <li><strong>Identified Seiko (Osaka)</strong> as the top downtime factory (~500 mins).</li>
+    title: "Data Analyst Intern",
+//     subtitle:[
+//     <ul style={{ listStyleType: "disc", paddingLeft: "1.2em", fontSize: "18px" }}>
+//   <li><strong>Identified Seiko (Osaka)</strong> as the top downtime factory (~500 mins).</li>
   
-  <li><strong>Found Laser Welders</strong> causing the most machine failures.</li>
+//   <li><strong>Found Laser Welders</strong> causing the most machine failures.</li>
   
-  <li><strong>Built an interactive Tableau dashboard</strong> to quickly track and analyse downtime.</li>
-</ul> 
-    ],
+//   <li><strong>Built an interactive Tableau dashboard</strong> to quickly track and analyse downtime.</li>
+// </ul> 
+//     ],
       
     
     image: require("./assets/images/deloitte.png"),
@@ -298,17 +331,17 @@ const achievementSection = {
   }
   ,
   {
-    title: "Commonwealth Bank – Data Analytics Virtual Experience",
-    subtitle:[
-   <ul style={{ listStyleType: "disc", paddingLeft: "1.2em", fontSize: "18px" }}>
-  <li><strong>Targeted key customer segment (30–50)</strong> driving <strong>62% of loan approvals</strong>.</li>
+    title: "Data Analyst Intern",
+//     subtitle:[
+//    <ul style={{ listStyleType: "disc", paddingLeft: "1.2em", fontSize: "18px" }}>
+//   <li><strong>Targeted key customer segment (30–50)</strong> driving <strong>62% of loan approvals</strong>.</li>
   
-  <li><strong>Shifted strategy to mid-range properties</strong>, boosting <strong>approval rates by 28%</strong>.</li>
+//   <li><strong>Shifted strategy to mid-range properties</strong>, boosting <strong>approval rates by 28%</strong>.</li>
   
-  <li><strong>Reduced risk exposure by 18%</strong> via <strong>smarter customer & property selection</strong>.</li>
-</ul>
-    ]
-    ,image: require("./assets/images/commbank_achievment.png"),
+//   <li><strong>Reduced risk exposure by 18%</strong> via <strong>smarter customer & property selection</strong>.</li>
+// </ul>
+//     ]
+    image: require("./assets/images/commbank_achievment.png"),
     imageAlt: "Commonwealth Bank Logo",
     footerLink: [
       {
@@ -317,17 +350,19 @@ const achievementSection = {
       }
     ]
   },
+  
+  
     {
     title: "Azure AI Fundamentals",
-    subtitle:[
-      <ul style={{ listStyleType: "disc", paddingLeft: "1.2em", fontSize: "18px" }}>
-  <li><strong>Built a local AI chatbot</strong>, letting <strong>businesses customize responses</strong> without external APIs.</li>
+//     subtitle:[
+//       <ul style={{ listStyleType: "disc", paddingLeft: "1.2em", fontSize: "18px" }}>
+//   <li><strong>Built a local AI chatbot</strong>, letting <strong>businesses customize responses</strong> without external APIs.</li>
   
-  <li><strong>Enabled chatbot configuration</strong> to <strong>match specific business needs</strong>.</li>
+//   <li><strong>Enabled chatbot configuration</strong> to <strong>match specific business needs</strong>.</li>
   
-  <li><strong>Created a hands-on AI learning project</strong> for <strong>local deployment and integration practice</strong>.</li>
-</ul>
-    ],
+//   <li><strong>Created a hands-on AI learning project</strong> for <strong>local deployment and integration practice</strong>.</li>
+// </ul>
+//     ],
     image: require("./assets/images/azure.png"),
     imageAlt: "Microsoft Azure Logo",
     footerLink: [
