@@ -23,7 +23,7 @@ const greeting = {
   username: "Karan Budha Air",
   title: "Hello I'm Karan Budha Air",
   subTitle: emoji(
-    " I’m experienced Data Analyst with a background in Artificial Intelligence 🚀"
+    " I’m an experienced Data Analyst with a background in artificial intelligence."
   ),
   resumeLink:"/resume.docx", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -48,7 +48,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I help businesses to build scalable data driven solutions that utilises Machine Learning, Big Data and Complex Algorithms",
+  subTitle: "I help businesses to build scalable data driven solutions that drives process automation and utilises machine learning, big data and complex algorithms.",
   skills: [
     emoji(
   "⚡ Develop scalable data models and interactive dashboards using SQL and Power BI to support strategic decision-making."
