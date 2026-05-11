@@ -47,7 +47,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "What I do ?",
   subTitle: "I help businesses to build scalable data driven solutions that drives process automation and utilises machine learning, big data and complex algorithms.",
   skills: [
     emoji(
