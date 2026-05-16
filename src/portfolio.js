@@ -178,7 +178,7 @@ const workExperiences = {
   company: "Deloitte ",
   companylogo: require("./assets/images/deloitte_logo.png"),
   date: "Nov 2025 - Feb 2026",
-  desc: "I was responsible for building an interactive tableau dashboard which identified unique pattern and led to supporting forensic investigation.",
+  desc: "I was tasked with the problem solving with their number one cause of machine failure and I was successfully able to identify it and make the necessary recommendation. ",
   ach: "Achievements:",
    descBullets: [
     
