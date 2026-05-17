@@ -182,7 +182,7 @@ const workExperiences = {
   ach: "Achievements:",
    descBullets: [
     
-  "Identified Seiko (Osaka) as the top downtime factory (~500 mins).",
+  "Identified Seiko(Osaka) as the top downtime factory (~500 mins).",
 "Laser Welders causing the most machine failures."
 
 
