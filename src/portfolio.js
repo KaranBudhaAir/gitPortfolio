@@ -189,7 +189,7 @@ const workExperiences = {
    ]
 },
       {
-  role: "Data Analyst Intern ",
+  role: "Data Analyst Intern",
   company: "Commonwealth Bank",
   companylogo: require("./assets/images/comm_logo2.png"),
   date: "Jul 2025 - Feb 2026",
@@ -206,7 +206,7 @@ const workExperiences = {
    
    ,
   {
-  role: "Team Member ",
+  role: "Team Member",
   company: "Coles",
   companylogo: require("./assets/images/coles2.png"),
   date: "Dec 2018 - Jan 2022",
@@ -222,7 +222,7 @@ const workExperiences = {
     },
 
     {
-  role: "Software Engineer ",
+  role: "Software Engineer",
   company: "Code Fusion",
   companylogo: require("./assets/images/code_fusion2.png"),
   date: "Dec 2018 - Jan 2022",
